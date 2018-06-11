@@ -87,7 +87,7 @@ function task3()
     $path = 'data/output.csv';
     $delimiter = ';';
     $array = [];
-    for ($i = 1; $i <= $arrayLength; $i++) {
+    for ($i = 0; $i < $arrayLength; $i++) {
         $array[] = rand(1, 100);
     }
     //в условии не увидел, что массив должен разбиваться на строки, поэтому формирую csv простым способом.
